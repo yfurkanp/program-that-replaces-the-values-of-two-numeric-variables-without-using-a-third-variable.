@@ -1,0 +1,27 @@
+import java.util.*;
+
+public class Q1 {
+
+	public static void main(String[] args) {
+		
+	Scanner sayı=new Scanner(System.in);
+	
+	System.out.println("Please enter a number:");
+	int a=sayı.nextInt();
+	System.out.println("Please enter a number:");
+	int b =sayı.nextInt();
+		
+	System.out.println("Numbers are:"  +a+  "and"  +b);
+	
+	a=a-b;
+	b=a+b;
+	a=b-a;
+	
+	System.out.println("Numbers are:"  +a+  "and"  +b);
+	
+		
+		}
+		
+
+	}
+
